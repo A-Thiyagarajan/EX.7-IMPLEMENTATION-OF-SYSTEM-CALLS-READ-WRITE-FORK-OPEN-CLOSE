@@ -24,7 +24,8 @@ f1=open("data",O_RDWR|O_CREAT|O_TRUNC);
 while((c=getchar())!='\n') 
 { 
 strin[i++]=c; 
-} 
+}
+printf("Implementation-of-System-calls-as-Read-Write-Fork-Open-Close:");
 strin[i]='\0'; 
 write(f1,strin,i); 
 close(f1); 
@@ -36,7 +37,9 @@ fork();
 }
 ```
 ## OUTPUT:
-![output](./image/system.png)
+![72](https://github.com/A-Thiyagarajan/EX.7-IMPLEMENTATION-OF-SYSTEM-CALLS-READ-WRITE-FORK-OPEN-CLOSE/assets/118707693/99219a99-1195-4318-b8de-f94d5d5808ce)
+
+
 ## RESULT:
 Thus, open, read, write, close , create , fork() system calls implemented successfully using c program.
 
